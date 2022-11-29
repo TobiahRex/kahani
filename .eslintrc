@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "globals": {
+    "document": true,
+    "window": true
+  },
+  "rules": {
+    "no-debugger": "warn",
+    "no-use-before-define": "off",
+    "no-underscore-dangle": "off"
+  }
+}
