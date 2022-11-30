@@ -1,0 +1,19 @@
+#draw-container {
+    padding: 10px;
+}
+
+.square {
+    position: absolute;
+    top: 100;
+    cursor: move;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px 0.5px;
+}
