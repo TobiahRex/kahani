@@ -1,0 +1,47 @@
+#draw-controls {
+    padding: 10px;
+}
+
+.parent--ctrl-buttons {
+    display: flex;
+}
+
+button {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.parent--color-buttons {
+    display: flex;
+}
+
+button.clr-button {
+    border: none;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+button:disabled {
+    cursor: not-allowed;
+}
+button.clr-button:hover {
+    box-shadow: 0.5px 0.5px 3px 0.5px;
+}
+button.clr-button:hover:disabled {
+    box-shadow: none;
+}
+button.clr-button[data-color="blue"] {
+    background-color: blue;
+}
+button.clr-button[data-color="red"] {
+    background-color: red;
+}
+button.clr-button[data-color="green"] {
+    background-color: green;
+}
+button.clr-button[data-color="orange"] {
+    background-color: orange;
+}
+button.clr-button:disabled {
+    background-color: gray;
+}

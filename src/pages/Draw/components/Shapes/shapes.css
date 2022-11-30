@@ -1,0 +1,8 @@
+#shape-container {
+    min-height: 500px;
+    min-width: 250px;
+}
+
+button.square {
+    border: none;
+}

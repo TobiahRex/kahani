@@ -13,6 +13,7 @@
     "no-debugger": "warn",
     "no-use-before-define": "off",
     "no-underscore-dangle": "off",
-    "function-paren-newline": "off"
+    "function-paren-newline": "off",
+    "no-param-reassign": "off"
   }
 }

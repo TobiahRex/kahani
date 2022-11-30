@@ -19,8 +19,8 @@ export default function Register() {
       <div className="register--title">
         <Header username={username} isLoggedIn={state.auth.isLoggedIn} />
       </div>
-      <form onSubmit={handleSubmitForm} className="form-example">
-        <div className="form-example">
+      <form onSubmit={handleSubmitForm}>
+        <div>
           <label htmlFor="name">
             Enter your name:&nbsp;
             <input
@@ -33,7 +33,7 @@ export default function Register() {
             />
           </label>
         </div>
-        <div className="form-example">
+        <div>
           <label htmlFor="password">
             Enter your password:
             <input
@@ -46,7 +46,7 @@ export default function Register() {
             />
           </label>
         </div>
-        <div className="form-example">
+        <div>
           <input type="submit" value="Subscribe!" />
         </div>
       </form>
