@@ -12,6 +12,7 @@
   "rules": {
     "no-debugger": "warn",
     "no-use-before-define": "off",
-    "no-underscore-dangle": "off"
+    "no-underscore-dangle": "off",
+    "function-paren-newline": "off"
   }
 }
